@@ -7,6 +7,7 @@
     <title>Cake</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Andika">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Artifika">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Asul">
@@ -20,6 +21,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sacramento">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Satisfy">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" href="assets/css/Article-List.css">
     <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
     <link rel="stylesheet" href="assets/css/Features-Boxed.css">
     <link rel="stylesheet" href="assets/css/Footer-Basic.css">
@@ -29,30 +31,41 @@
 <body style="background-color:#ffffff;">
     <div data-bs-parallax-bg="true" style="height:500px;background-image:url(&quot;assets/img/2222.jpg&quot;);background-position:center;background-size:cover;">
         <nav class="navbar navbar-light navbar-expand-md mx-auto" style="max-width:590px;background-color:rgba(255,255,255,0.92);">
-            <div class="container-fluid"><a class="navbar-brand" href="#" style="background-image:url(&quot;assets/img/received_1768210846539921.png&quot;);background-color:rgba(255,255,255,0);font-family:Pacifico, cursive;font-size:25px;color:rgba(255,50,148,0.9);">Let's Bake</a><button class="navbar-toggler"
+            <div class="container-fluid"><a class="navbar-brand" href="index.html" style="background-image:url(&quot;assets/img/received_1768210846539921.png&quot;);background-color:rgba(255,255,255,0);font-family:Pacifico, cursive;font-size:25px;color:rgba(255,50,148,0.9);">Let's Bake</a><button class="navbar-toggler"
                     data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navcol-1">
                     <ul class="nav navbar-nav">
-                        <li class="nav-item" role="presentation"><a class="nav-link active" href="#" style="font-family:'Didact Gothic', sans-serif;">Browse cakes</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" style="color:#000000;font-family:'Didact Gothic', sans-serif;">Place order</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="contact.html" style="color:#000000;font-family:'Didact Gothic', sans-serif;">Contact us</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link active" href="browse.html" style="font-family:'Didact Gothic', sans-serif;">Browse cakes</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link active" href="cart.html" style="color:#000000;font-family:'Didact Gothic', sans-serif;">View cart</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link active" href="contact.html" style="color:#000000;font-family:'Didact Gothic', sans-serif;">Contact us</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
     </div><img class="d-block mx-auto" src="assets/img/received_1768210846539921.png" style="background-image:url(&quot;assets/img/received_1768210846539921.png&quot;);width:291px;height:298px;margin-top:-149px;">
-    <div>
+    <div class="article-list">
         <div class="container">
-            <div class="row">
-                <div class="col-md-6"></div>
-                <div class="col-md-6"></div>
+            <div class="intro">
+                <h2 class="text-center" style="font-family:Sacramento, cursive;font-size:46px;">Our best-sellers</h2>
+                <p class="text-center" style="font-family:'Didact Gothic', sans-serif;">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae. <span class="badge badge-primary"></span></p>
+            </div><a class="btn btn-primary d-block mx-auto" role="button" href="browse.html" style="margin-top:24px;background-color:#ffa3b2;color:#f9f9f9;font-family:'Didact Gothic', sans-serif;max-width:237px;">Browse all cakes</a>
+            <div class="row articles">
+                <div class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="assets/img/received_1758647114162961.jpeg"></a>
+                    <h3 class="name" style="font-family:Andika, sans-serif;">Birthday cakes</h3>
+                    <p class="description" style="font-family:'Didact Gothic', sans-serif;">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a href="#" class="action"></a></div>
+                <div class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="assets/img/received_1823232931037712.jpeg"></a>
+                    <h3 class="name" style="font-family:Andika, sans-serif;">Custom cupcakes</h3>
+                    <p class="description" style="font-family:'Didact Gothic', sans-serif;">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a href="#" class="action"></a></div>
+                <div class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="assets/img/received_1807878965906442.jpeg"></a>
+                    <h3 class="name" style="font-family:Andika, sans-serif;">Anti-gravity Beer cakes</h3>
+                    <p class="description" style="font-family:'Didact Gothic', sans-serif;">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a href="#" class="action"></a></div>
             </div>
         </div>
     </div>
     <div class="features-boxed" style="background-color:#ffffff;">
         <div class="container">
             <div class="intro">
-                <h2 class="text-center" style="font-family:Andika, sans-serif;">About Us</h2>
+                <h2 class="text-center" style="font-family:Sacramento, cursive;font-size:46px;">About Us</h2>
                 <p class="text-center" style="font-family:'Didact Gothic', sans-serif;">We're a family business that aims to give you give you the best service in the pastry business. We offer tasty customizable cakes at the lowest prices.</p>
             </div>
             <div class="row justify-content-center features">
@@ -94,6 +107,19 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div class="footer-basic">
+        <footer>
+            <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Home</a></li>
+                <li class="list-inline-item"><a href="#">Services</a></li>
+                <li class="list-inline-item"><a href="#">About</a></li>
+                <li class="list-inline-item"><a href="#">Terms</a></li>
+                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+            </ul>
+            <p class="copyright">Noah Batacan © 2017</p>
+        </footer>
     </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
