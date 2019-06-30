@@ -25,6 +25,8 @@
     <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
     <link rel="stylesheet" href="assets/css/Features-Boxed.css">
     <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+    <link rel="stylesheet" href="assets/css/Lightbox-Gallery.css">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/Team-Boxed.css">
 </head>
@@ -44,8 +46,8 @@
     </nav>
     <div class="carousel slide d-block mx-auto" data-ride="carousel" data-pause="false" data-keyboard="false" id="carousel-1" style="max-width:500px;margin-top:20px;">
         <div class="carousel-inner d-block mx-auto" role="listbox" style="max-width:499px;">
-            <div class="carousel-item active"><img class="img-fluid w-100 d-block" src="assets/img/received_1758647114162961.jpeg" alt="Slide Image"></div>
-            <div class="carousel-item"><img class="img-fluid w-100 d-block" src="assets/img/received_1760256430668696.jpeg" alt="Slide Image"></div>
+            <div class="carousel-item"><img class="img-fluid w-100 d-block" src="assets/img/received_1758647114162961.jpeg" alt="Slide Image"></div>
+            <div class="carousel-item active"><img class="img-fluid w-100 d-block" src="assets/img/received_1760256430668696.jpeg" alt="Slide Image"></div>
             <div class="carousel-item"><img class="img-fluid w-100 d-block" src="assets/img/received_1828769263817412.jpeg" alt="Slide Image"></div>
             <div class="carousel-item"><img class="img-fluid w-100 d-block" src="assets/img/received_1822168104477528.jpeg" alt="Slide Image"></div>
             <div class="carousel-item"><img class="img-fluid w-100 d-block" src="assets/img/received_1798481383512867.jpeg" alt="Slide Image"></div>
@@ -54,92 +56,68 @@
         <div><a class="carousel-control-prev" href="#carousel-1" role="button" data-slide="prev"><span class="carousel-control-prev-icon"></span><span class="sr-only">Previous</span></a><a class="carousel-control-next" href="#carousel-1" role="button" data-slide="next"><span class="carousel-control-next-icon"></span><span class="sr-only">Next</span></a></div>
         <ol
             class="carousel-indicators">
-            <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-1" data-slide-to="1"></li>
+            <li data-target="#carousel-1" data-slide-to="0"></li>
+            <li data-target="#carousel-1" data-slide-to="1" class="active"></li>
             <li data-target="#carousel-1" data-slide-to="2"></li>
             <li data-target="#carousel-1" data-slide-to="3"></li>
             <li data-target="#carousel-1" data-slide-to="4"></li>
             <li data-target="#carousel-1" data-slide-to="5"></li>
             </ol>
     </div>
-    <div class="team-boxed" style="background-color:#ffffff;margin-top:24px;">
-        <div class="container-fluid" style="max-width:900px;">
+    <div class="photo-gallery">
+        <div class="container d-block mx-auto">
             <div class="intro">
-                <h2 class="text-center" style="font-family:Sacramento, cursive;font-size:50px;">Cake Galleria</h2>
-                <p class="text-center" style="font-family:'Didact Gothic', sans-serif;">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae.</p>
+                <h2 class="text-center" style="font-family:Sacramento, cursive;font-size:46px;">Cake Galleria</h2>
+                <p class="text-center">These are some of the various themed-cakes that we've crafted over the years. For every occassion, there is a perfectly matched theme!</p>
             </div>
-            <div class="row people">
-                <div class="col-md-6 col-lg-4 item">
-                    <div class="box" style="background-color:#fff0f4;"><img class="img-fluid" src="assets/img/received_1844964195531252.jpeg">
-                        <h3 class="name" style="font-family:'Didact Gothic', sans-serif;font-size:20px;">el Debutante</h3>
-                        <p class="title">Musician</p>
-                    </div>
+            <div class="row justify-content-center align-items-center photos">
+                <div class="col-sm-6 col-md-4 col-lg-3 item" style="margin:10px;background-color:#fff0f4;padding:20px;"><a href="assets/img/received_1844964195531252.jpeg" data-lightbox="photos"><img class="rounded img-fluid" src="assets/img/received_1844964195531252.jpeg"></a>
+                    <p class="text-center" style="font-family:'Didact Gothic', sans-serif;font-size:20px;"><strong>El Debutante</strong></p>
                 </div>
-                <div class="col-md-6 col-lg-4 item">
-                    <div class="box" style="background-color:#fff0f4;"><img class="img-fluid" src="assets/img/received_1844967752197563.jpeg">
-                        <h3 class="name" style="font-family:'Didact Gothic', sans-serif;font-size:20px;">Aloha Kitty</h3>
-                        <p class="title">Artist</p>
-                    </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item" style="background-color:#fff0f4;margin:10px;padding:20px;"><a href="assets/img/received_1844967752197563.jpeg" data-lightbox="photos"><img class="rounded img-fluid" src="assets/img/received_1844967752197563.jpeg" style="background-color:#fff0f4;"></a>
+                    <p class="text-center" style="font-family:'Didact Gothic', sans-serif;font-size:20px;"><strong>Aloha Kitty</strong></p>
                 </div>
-                <div class="col-md-6 col-lg-4 item">
-                    <div class="box" style="background-color:#fff0f4;"><img class="img-fluid" src="assets/img/received_1850727551621583.jpeg">
-                        <h3 class="name" style="font-family:'Didact Gothic', sans-serif;font-size:20px;">Two Girls, One Olaf</h3>
-                        <p class="title">Stylist</p>
-                    </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item" style="background-color:#fff0f4;margin:10px;padding:20px;"><a href="assets/img/received_1850727551621583.jpeg" data-lightbox="photos"><img class="rounded img-fluid" src="assets/img/received_1850727551621583.jpeg"></a>
+                    <p class="text-center" style="font-family:'Didact Gothic', sans-serif;font-size:20px;"><strong>Frozone</strong></p>
                 </div>
-                <div class="col-md-6 col-lg-4 item">
-                    <div class="box" style="background-color:#fff0f4;"><img class="img-fluid" src="assets/img/received_1851915758169429.jpeg">
-                        <h3 class="name" style="font-family:'Didact Gothic', sans-serif;font-size:20px;">Morris 65</h3>
-                        <p class="title">Stylist</p>
-                    </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item" style="background-color:#fff0f4;margin:10px;padding:20px;"><a href="assets/img/received_1851915758169429.jpeg" data-lightbox="photos"><img class="rounded img-fluid" src="assets/img/received_1851915758169429.jpeg"></a>
+                    <p class="text-center" style="font-family:'Didact Gothic', sans-serif;font-size:20px;"><strong>Oldman Morris</strong></p>
                 </div>
-                <div class="col-md-6 col-lg-4 item">
-                    <div class="box" style="background-color:#fff0f4;"><img class="img-fluid" src="assets/img/received_10209227210620034.jpeg">
-                        <h3 class="name" style="font-family:'Didact Gothic', sans-serif;font-size:20px;">Hackerman</h3>
-                        <p class="title">Stylist</p>
-                    </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item" style="background-color:#fff0f4;margin:10px;padding:20px;"><a href="assets/img/received_10209227210620034.jpeg" data-lightbox="photos"><img class="rounded img-fluid" src="assets/img/received_10209227210620034.jpeg"></a>
+                    <p class="text-center" style="font-family:'Didact Gothic', sans-serif;font-size:20px;"><strong>Hackerman</strong></p>
                 </div>
-                <div class="col-md-6 col-lg-4 item">
-                    <div class="box" style="background-color:#fff0f4;"><img class="img-fluid" src="assets/img/received_1806761796018159.jpeg">
-                        <h3 class="name" style="font-family:'Didact Gothic', sans-serif;font-size:20px;">Wanda Woman</h3>
-                        <p class="title">Stylist</p>
-                    </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item" style="background-color:#fff0f4;margin:10px;"><a href="assets/img/received_1806761796018159.jpeg" data-lightbox="photos"><img class="rounded img-fluid" src="assets/img/received_1806761796018159.jpeg"></a>
+                    <p class="text-center" style="font-family:'Didact Gothic', sans-serif;font-size:20px;"><strong>Wonderful Woman</strong></p>
                 </div>
-                <div class="col-md-6 col-lg-4 item">
-                    <div class="box" style="background-color:#fff0f4;"><img class="img-fluid" src="assets/img/IMG20180722123956.jpg">
-                        <h3 class="name" style="font-family:'Didact Gothic', sans-serif;font-size:20px;">Golden Birthday</h3>
-                        <p class="title">Stylist</p>
-                    </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item" style="background-color:#fff0f4;margin:10px;padding:20px;"><a href="assets/img/received_10208950683461146.jpeg" data-lightbox="photos"><img class="rounded img-fluid" src="assets/img/received_10208950683461146.jpeg"></a>
+                    <p class="text-center" style="font-family:'Didact Gothic', sans-serif;font-size:20px;"><strong>Flora</strong></p>
                 </div>
-                <div class="col-md-6 col-lg-4 item">
-                    <div class="box" style="background-color:#fff0f4;"><img class="img-fluid" src="assets/img/received_10209635005288764.jpeg">
-                        <h3 class="name" style="font-family:'Didact Gothic', sans-serif;font-size:20px;">Happy 50th</h3>
-                        <p class="title">Stylist</p>
-                    </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item" style="background-color:#fff0f4;margin:10px;padding:20px;"><a href="assets/img/received_10208746770283444.jpeg" data-lightbox="photos"><img class="rounded img-fluid" src="assets/img/received_10208746770283444.jpeg"></a>
+                    <p class="text-center" style="font-family:'Didact Gothic', sans-serif;font-size:20px;"><strong>Basket o' Sweets</strong></p>
                 </div>
-                <div class="col-md-6 col-lg-4 item">
-                    <div class="box" style="background-color:#fff0f4;"><img class="img-fluid" src="assets/img/IMG20180721144840.jpg">
-                        <h3 class="name" style="font-family:'Didact Gothic', sans-serif;font-size:20px;">Red Gold and Green</h3>
-                        <p class="title">Stylist</p>
-                    </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item" style="background-color:#fff0f4;margin:10px;padding:20px;"><a href="assets/img/received_1482472061796159.jpeg" data-lightbox="photos"><img class="rounded img-fluid" src="assets/img/received_1482472061796159.jpeg"></a>
+                    <p class="text-center" style="font-family:'Didact Gothic', sans-serif;font-size:20px;"><strong>Floraline</strong></p>
                 </div>
-                <div class="col-md-6 col-lg-4 item">
-                    <div class="box" style="background-color:#fff0f4;"><img class="img-fluid" src="assets/img/IMG20180804172122.jpg">
-                        <h3 class="name" style="font-family:'Didact Gothic', sans-serif;font-size:20px;">Pills</h3>
-                        <p class="title">Stylist</p>
-                    </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item" style="background-color:#fff0f4;margin:10px;padding:20px;"><a href="assets/img/received_1772711269423212.jpeg" data-lightbox="photos"><img class="rounded img-fluid" src="assets/img/received_1772711269423212.jpeg"></a>
+                    <p class="text-center" style="font-family:'Didact Gothic', sans-serif;font-size:20px;"><strong>Sofia the First</strong></p>
                 </div>
-                <div class="col-md-6 col-lg-4 item">
-                    <div class="box" style="background-color:#fff0f4;"><img class="img-fluid" src="assets/img/IMG20180710175044.jpg">
-                        <h3 class="name" style="font-family:'Didact Gothic', sans-serif;font-size:20px;">Unicarn</h3>
-                        <p class="title">Stylist</p>
-                    </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item" style="background-color:#fff0f4;margin:10px;padding:20px;"><a href="assets/img/received_1482472078462824.jpeg" data-lightbox="photos"><img class="rounded img-fluid" src="assets/img/received_1482472078462824.jpeg"></a>
+                    <p class="text-center" style="font-family:'Didact Gothic', sans-serif;font-size:20px;"><strong>Flor de Luna</strong></p>
                 </div>
-                <div class="col-md-6 col-lg-4 item">
-                    <div class="box" style="background-color:#fff0f4;"><img class="img-fluid" src="assets/img/IMG20180731162052.jpg">
-                        <h3 class="name" style="font-family:'Didact Gothic', sans-serif;font-size:20px;">Chug chug</h3>
-                        <p class="title">Stylist</p>
-                    </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item" style="background-color:#fff0f4;margin:10px;padding:20px;"><a href="assets/img/received_1827109297306127.jpeg" data-lightbox="photos"><img class="rounded img-fluid" src="assets/img/received_1827109297306127.jpeg"></a>
+                    <p class="text-center" style="font-family:'Didact Gothic', sans-serif;font-size:20px;"><strong>Czelo's Ville</strong></p>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item" style="background-color:#fff0f4;margin:10px;padding:20px;"><a href="assets/img/IMG20180710175044.jpg" data-lightbox="photos"><img class="rounded img-fluid" src="assets/img/IMG20180710175044.jpg"></a>
+                    <p class="text-center" style="font-family:'Didact Gothic', sans-serif;font-size:20px;"><strong>Uni Carn</strong></p>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item" style="background-color:#fff0f4;margin:10px;padding:20px;"><a href="assets/img/IMG20190415110210.jpg" data-lightbox="photos"><img class="rounded img-fluid" src="assets/img/IMG20190415110210.jpg"></a>
+                    <p class="text-center" style="font-family:'Didact Gothic', sans-serif;font-size:20px;"><strong>B&amp;W Fashion</strong></p>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item" style="background-color:#fff0f4;margin:10px;padding:20px;"><a href="assets/img/IMG20190104152755l.jpg" data-lightbox="photos"><img class="rounded img-fluid" src="assets/img/IMG20190104152755l.jpg"></a>
+                    <p class="text-center" style="font-family:'Didact Gothic', sans-serif;font-size:20px;"><strong>Sailorman</strong></p>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 item" style="background-color:#fff0f4;margin:10px;padding:20px;"><a href="assets/img/IMG20190126164807.jpg" data-lightbox="photos"><img class="rounded img-fluid" src="assets/img/IMG20190126164807.jpg"></a>
+                    <p class="text-center" style="font-family:'Didact Gothic', sans-serif;font-size:20px;"><strong>Mater n' McQueen</strong></p>
                 </div>
             </div>
         </div>
@@ -160,6 +138,7 @@
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-animation.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
 </body>
 
 </html>
